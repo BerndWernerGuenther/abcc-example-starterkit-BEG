@@ -100,8 +100,8 @@ static const AD_StructDataType appl_AdiReadStruct[] =
     /* Index: 2 */  { "ABP_UINT16", ABP_UINT16, 1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { &APPL_StructAdi.iUint16,        NULL } } },
     /* Index: 3 */  { "ABP_SINT16", ABP_SINT16, 1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { &APPL_StructAdi.iInt16,         NULL } } },
     /* Index: 4 */  { "ABP_BITS16", ABP_BITS16, 1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { &APPL_StructAdi.iBit16,         NULL } } },
-    /* Index: 5 */  { "ABP_UINT8",  ABP_UINT8,  1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { &APPL_StructAdi.bInt8,          NULL } } },
-    /* Index: 6 */  { "ABP_SINT8",  ABP_SINT8,  1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { &APPL_StructAdi.bUint8,         NULL } } },
+    /* Index: 5 */  { "ABP_UINT8",  ABP_UINT8,  1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { &APPL_StructAdi.bUint8,         NULL } } },
+    /* Index: 6 */  { "ABP_SINT8",  ABP_SINT8,  1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { &APPL_StructAdi.bInt8,          NULL } } },
     /* Index: 7 */  { "ABP_BITS8",  ABP_BITS8,  1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { &APPL_StructAdi.bBit8,          NULL } } },
     /* Index: 8 */  { "ABP_PAD8",   ABP_PAD8,   1, APPL_READ_MAP_WRITE_ACCESS_DESC,  0,  { { NULL,                           NULL } } },
  #ifdef ABCC_SYS_16_BIT_CHAR
