@@ -1,7 +1,7 @@
 ECHO OFF
 CLS
 ECHO ****************************************************************************************************
-ECHO * This batch file use_A.bat copies the following files           					*
+ECHO * This batch file use_D.bat copies the following files           					*
 ECHO * - abcc_network_data_parameters.c				      					*
 ECHO * - abcc_driver_config.h				      	      					*
 ECHO * for the alltypes application to the example_application folder.					*
@@ -56,7 +56,7 @@ copy ADI_examples\D_alltypes\D_alltypes_selected.txt  ADI_examples\*.*
 REM pause
 
 ECHO ****************************************************************************************************
-ECHO * Batch file executed succcessfully!								*
+ECHO * Batch file executed successfully!								*
 ECHO ****************************************************************************************************
 pause
  

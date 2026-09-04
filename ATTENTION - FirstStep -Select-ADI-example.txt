@@ -1,6 +1,6 @@
-The first step using this repos for is to select the suitable ADI_example.
+The first step when using this repo is to select the suitable ADI_example.
 
-This repos offers 4 different ADI examples:
+This repo offers 4 different ADI examples:
 - A_speed_example 
 - B_simple_16	
 - C_separate_16

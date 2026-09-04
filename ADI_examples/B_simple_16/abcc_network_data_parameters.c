@@ -133,7 +133,7 @@ void ABCC_API_CbfCyclicalProcessing()
     else
     {
         /*
-        ** We are not in process active, the default should be ???
+        ** We are not in process active; no cyclical processing is performed in this example.
         */
     }
 }
