@@ -51,7 +51,7 @@ ECHO Copy cfg files
 xcopy /s ADI_examples\A_speed_example\cfg_files cfg_files\*.*
 REM pause
 
-ECHO Copying the file A_speed_example selected.txt
+ECHO Copying the file A_speed_example_selected.txt
 copy ADI_examples\A_speed_example\A_speed_example_selected.txt  ADI_examples\*.*
 REM pause
 
